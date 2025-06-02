@@ -1,0 +1,7 @@
+.borders div{
+    border-style: solid;
+    border-radius: 20px;
+}
+.espacio{
+    margin: 20px 0px;
+}

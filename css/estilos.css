@@ -1,0 +1,70 @@
+p {
+    font-family: comic sans-serif;
+}
+
+.encabezado {
+    background-color: aqua;
+}
+
+.menu {
+    background-color: rgb(255, 170, 0);
+    text-align: center;
+}
+
+.contenido {
+    background-color: rgb(255, 0, 170);
+    place-items: center;
+}
+
+.contenidoP {
+    background-color: rgb(144, 12, 100);
+    place-items: center;
+}
+
+.pie {
+    background-color: rgb(0, 255, 68);
+    border: black dotted;
+    /* Es posible añadir más valores a una propierdad principal
+    si la propiedad tiene detalles */
+    /* border-color: black;
+    border-style: dotted; */
+    border-width: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 24px;
+    background-color: rgb(83, 3, 83);
+    margin-left: 10px;
+    border-radius: 5px;
+    padding:3px;
+}
+
+.mario {
+    margin-bottom: 20px;
+    padding: 0px 150px;
+    position: absolute;
+    animation: movermario 5s linear infinite;
+}
+
+@keyframes movermario {
+    from{
+        top: 450px;
+        left: 20px;
+        
+    }
+    to {
+        top: 450px;
+        left: 1080px;
+    }
+}
